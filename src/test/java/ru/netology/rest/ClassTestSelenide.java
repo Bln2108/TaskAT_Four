@@ -7,9 +7,7 @@ import java.time.Duration;
 import static com.codeborne.selenide.Condition.*;
 import static com.codeborne.selenide.Selectors.*;
 import static com.codeborne.selenide.Selenide.*;
-
 public class ClassTestSelenide {
-
     @Test
     void shouldRegisterByAccountNumberVisibilityChange() {
         open("http://localhost:9999");
